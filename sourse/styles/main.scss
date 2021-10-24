@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main-conteiner{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(../images/Vector.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@import 'header.scss';
+@import 'slider.scss';
+@import 'bottom.scss';
+@import 'mobMenu.scss';

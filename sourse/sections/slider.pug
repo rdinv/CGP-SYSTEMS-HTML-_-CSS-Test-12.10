@@ -1,0 +1,19 @@
+.slider
+    .laptop
+        img(src="images/laptop.png", alt="laptop")
+        .air
+            img#screen(src="images/1.png", alt="screen")
+    .someresults
+        span.title-first SOME OF OUR RESULTS
+        span.title-second#title GODDEST PROJECT #1
+        span.percent#percent1 93.7%
+        span.percent-description decrease in lead cost
+        span.percent.anim#percent2 128%
+        span.percent-description increase in leads
+        .pagination
+            img.prev(onclick='prevSlide()', src="images/arrow.png", alt="arrowLeft")
+            span.square.hoverActiv(onclick='getSlide(0)')
+            span.square(onclick='getSlide(1)')
+            span.square(onclick='getSlide(2)')
+            span.square(onclick='getSlide(3)')
+            img.next(onclick='nextSlide()', src="images/arrow.png", alt="arrowRight")

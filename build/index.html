@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>CGP SYSTEMS HTML _ CSS Test 12.10</title>
+  </head>
+  <body>
+    <div class="main-conteiner">
+      <nav class="nav-container">
+        <div class="navbar">
+          <div class="logo"><img src="images/logo.svg" alt="logo"></div>
+          <div class="div-top-hypers">
+            <ul class="ul-top-hypers">
+              <li><a class="a-top-hypers" href="#Social">Social Media Packages</a></li>
+              <li><a class="a-top-hypers" href="#Growth">Growth Guides</a></li>
+              <li><a class="a-top-hypers" href="#Contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="burger-menu"></div>
+          <div class="burger-menu__btn">
+            <div class="burger-menu__btn-inner"></div>
+          </div>
+        </div>
+        <div class="main-section">
+          <div class="nav-h1"><span class="title-first">Your results</span><span class="title-second">ARE POSITIVE</span>
+            <p>But it’s good news</p>
+            <button class="cta">START YOUR GROWTH</button>
+          </div>
+          <div class="rocket-img"><img src="images/rocket.png" alt="rocket"></div>
+        </div>
+      </nav>
+      <div class="mobMenu-conteiner">
+        <div class="mob-hypers">
+          <ul class="ul-mob-hypers">
+            <li><a class="a-mob-hypers" href="#aboutUs">Social Media Packages</a></li>
+            <li><a class="a-mob-hypers" href="#services">Growth Guides</a></li>
+            <li><a class="a-mob-hypers" href="#customers">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="laptop"><img src="images/laptop.png" alt="laptop">
+          <div class="air"><img id="screen" src="images/1.png" alt="screen"></div>
+        </div>
+        <div class="someresults"><span class="title-first">SOME OF OUR RESULTS</span><span class="title-second" id="title">GODDEST PROJECT #1</span><span class="percent" id="percent1">93.7%</span><span class="percent-description">decrease in lead cost</span><span class="percent anim" id="percent2">128%</span><span class="percent-description">increase in leads</span>
+          <div class="pagination"><img class="prev" onclick="prevSlide()" src="images/arrow.png" alt="arrowLeft"><span class="square hoverActiv" onclick="getSlide(0)"></span><span class="square" onclick="getSlide(1)"></span><span class="square" onclick="getSlide(2)"></span><span class="square" onclick="getSlide(3)"></span><img class="next" onclick="nextSlide()" src="images/arrow.png" alt="arrowRight"></div>
+        </div>
+      </div>
+      <div class="bottom-section">
+        <div class="firework"><img src="images/firework.png" alt="firework"></div>
+      </div>
+      <script src="script/main.js"></script>
+      <script src="script/slider.js"></script>
+    </div>
+  </body>
+</html>
